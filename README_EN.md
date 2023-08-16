@@ -47,10 +47,10 @@ e.g. Image.gz-dtb
 
 ### Clang version
 
-The default version is zyc clang17.0.0, if you need to change it, you can go to build-kernel.yml to modify it
+The default version is zyc clang18.0.0, if you need to change it, you can go to build-kernel.yml to modify it
 
 Usually Clang12 will pass most kernel builds of 4.14 and above.
-My own Redmi Note 8 Pro 4.14 is using clang17.0.0
+My own Redmi Note 8 Pro 4.14 is using clang18.0.0
 
 ### Extra build commands
 
