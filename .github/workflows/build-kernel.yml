@@ -40,9 +40,8 @@ jobs:
     - name: Download Clang Toolchain
       run: |
         mkdir clang
-        wget https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.4/clang+llvm-17.0.4-x86_64-linux-gnu-ubuntu-22.04.tar.xz
-        xz -d clang+llvm-17.0.4-x86_64-linux-gnu-ubuntu-22.04.tar.xz
-        tar -C clang/ -zxvf clang+llvm-17.0.4-x86_64-linux-gnu-ubuntu-22.04.tar
+        wget https://github.com/ZyCromerZ/Clang/releases/download/18.0.0-20231109-release/Clang-18.0.0-20231109.tar.gz
+        tar -C clang/ -zxvf Clang-18.0.0-20231109.tar.gz
 
     - name: Download mkbootimg tools
       if: env.MAKE_BOOT_IMAGE == 'true'
